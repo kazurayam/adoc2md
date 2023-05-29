@@ -1,0 +1,8 @@
+@startuml sequence
+
+actor       Tester       as tester
+participant adoc2md.sh   as script
+
+tester   -> script       : run it
+
+@enduml
