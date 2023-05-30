@@ -2,7 +2,7 @@
  * translate docs/index_.adoc to docs/index.md
  * with instruction to Jekyll Blog to generate TOC
  */
-task compileDocs {
+task gendocs {
     doLast {
         exec {
             workingDir './docs'

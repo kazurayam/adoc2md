@@ -25,7 +25,9 @@ Quo usque tandem abutere, Catilina, patientia nostra?
 
 Quam diu etiam furor iste tuus nos eludet?
 
-# example1 宮沢賢治　心象スケッチ　春と修羅
+# 宮沢賢治の詩その1
+
+心象スケッチ　春と修羅
 
     わたくしといふ現象は
     仮定された有機交流電燈の
@@ -47,7 +49,7 @@ Quam diu etiam furor iste tuus nos eludet?
     かげとひかりのひとくさりづつ
     そのとほりの心象スケッチです
 
-# example2 宮沢賢治
+# 宮沢賢治の詩その2
 
     雨ニモマケズ
     風ニモマケズ
