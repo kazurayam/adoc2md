@@ -73,14 +73,15 @@ function processFile() {
   # - Table of contents
   # {:toc}
   # ```
-  echo "- Table of contents" > temp.md
-  echo "{:toc}" >> temp.md
-  echo "" >> temp.md
-  cat $newmd >> temp.md
-  cat temp.md > $newmd
-  rm temp.md
-  echo prepended the TOC segement in $newmd
-
+  if [ $requireTOC = true ]; then
+    echo "- Table of contents" > temp.md
+    echo "{:toc}" >> temp.md
+    echo "" >> temp.md
+    cat $newmd >> temp.md
+    cat temp.md > $newmd
+    rm temp.md
+    echo prepended the TOC segement in $newmd
+  fi
   # just a blank line to separate the *.adoc files processed
   echo ""
 }

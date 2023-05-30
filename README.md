@@ -8,7 +8,7 @@ The above phrase looks simple. But actually it involves several technical issues
 
 ## What this project provides?
 
-- ['docs/adoc2md.sh](https://kazurayam.github.io/adoc2md.sh)
+- ['docs/adoc2md.sh`](https://kazurayam.github.io/adoc2md/adoc2md.sh)
 
 This is a small shell script (bash) tested on macOS that does the following:
 
