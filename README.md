@@ -14,3 +14,8 @@ This is a small shell script (bash) tested on macOS that does the following:
 
 1. the script transforms a file `<projectDir>/docs/index_.adoc` written in Asciidoc format into a file `docs/index.md` in GitHub Flavored Markdown format. To implement this, [Asciidoctor](https://asciidoctor.org/) and [Pandoc](https://pandoc.org/) are used.
 2. the script modifies the output `index.md` file so that it can add a table of contents utilizing the [Jekyll Blog](http://www.seanbuscay.com/blog/jekyll-toc-markdown/)'s feature. 
+
+### Sample documentation written in Asciidoc with TOC
+
+See https://kazurayam.github.io/adoc2md/
+
