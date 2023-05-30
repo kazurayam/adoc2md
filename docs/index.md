@@ -25,7 +25,7 @@ Quo usque tandem abutere, Catilina, patientia nostra?
 
 Quam diu etiam furor iste tuus nos eludet?
 
-# docs/adoc2md.sh
+# Source code inclusion example
 
     #!/bin/bash
 
@@ -122,7 +122,9 @@ Quam diu etiam furor iste tuus nos eludet?
       processFile $fname
     done
 
-# PlantUML diagram example
+# Diagram example
+
+Generated using [PlantUML](https://plantuml.com/ja/)
 
 <figure>
 <img src="https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png" alt="sequence" />

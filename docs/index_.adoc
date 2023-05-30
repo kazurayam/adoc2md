@@ -22,14 +22,16 @@ Quo usque tandem abutere, Catilina, patientia nostra?
 
 Quam diu etiam furor iste tuus nos eludet?
 
-== docs/adoc2md.sh
+== Source code inclusion example
 
 [source,shell]
 ----
-include::./adoc2md.sh[]
+include::./adoc2md.sh[lines=1..100]
 ----
 
-== PlantUML diagram example
+== Diagram example
+
+Generated using link:https://plantuml.com/ja/[PlantUML]
 
 image::https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png[]
 
