@@ -22,6 +22,17 @@ Quo usque tandem abutere, Catilina, patientia nostra?
 
 Quam diu etiam furor iste tuus nos eludet?
 
+== docs/adoc2md.sh
+
+[source,shell]
+----
+include::./adoc2md.sh[]
+----
+
+== PlantUML diagram example
+
+image::https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png[]
+
 == 宮沢賢治の詩その1
 
 心象スケッチ　春と修羅
