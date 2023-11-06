@@ -1,4 +1,3 @@
-- Table of contents
 {:toc}
 
 # Lorem ipsum
@@ -103,7 +102,7 @@ Quam diu etiam furor iste tuus nos eludet?
       # {:toc}
       # ```
       if [ $requireTOC = true ]; then
-        echo "- Table of contents" > temp.md
+        # echo "Table of contents" > temp.md
         echo "{:toc}" >> temp.md
         echo "" >> temp.md
         cat $newmd >> temp.md
