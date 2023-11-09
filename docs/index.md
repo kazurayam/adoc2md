@@ -2,6 +2,8 @@
 
 # Lorem ipsum
 
+-   project version: 0.1.2
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ## Ut enim ad minim veriam
@@ -57,15 +59,14 @@ Quam diu etiam furor iste tuus nos eludet?
     #
 
     requireTOC=false
+    projectVersion=unknown
 
-    optstring="t"
-    while getopts ${optstring} arg; do
-      case ${arg} in
-        t)
-            requireTOC=true
-            ;;
-        ?)
-            ;;
+    while getopts tv: OPT; do
+      case ${OPT} in
+        t)  requireTOC=true;;
+        v)  projectVersion=$OPTARG;;
+        :)  echo "$OPTARG requires value but not given";;
+        ?)  echo "$OPTARG is not defined(OPT=$OPT)";;
       esac
     done
 
@@ -76,7 +77,7 @@ Quam diu etiam furor iste tuus nos eludet?
       md=${fname//adoc/md}
       xml=${fname//adoc/xml}
       echo "converting $fname into $md"
-      asciidoctor -b docbook -a leveloffset=+1 -o - "$fname" > "$xml"
+      asciidoctor -b docbook -a leveloffset=+1 -a projectVersion="$projectVersion" -o - "$fname" > "$xml"
       # using Pandoc, generate a Markdown file without TOC
       cat "$xml" | pandoc --markdown-headings=atx --wrap=preserve -t markdown_strict -f docbook - > "$md"
       #echo deleting $xml
