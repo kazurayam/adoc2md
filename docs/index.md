@@ -125,9 +125,7 @@ Quam diu etiam furor iste tuus nos eludet?
 
 Generated using [PlantUML](https://plantuml.com/ja/)
 
-<figure>
-<img src="https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png" alt="sequence" />
-</figure>
+![sequence](https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png)
 
 # 宮沢賢治の詩その1
 

@@ -1,3 +1,6 @@
+group 'com.kazurayam'
+version '0.1.1'
+
 /**
  * translate docs/index_.adoc to docs/index.md
  * with instruction to Jekyll Blog to generate TOC
