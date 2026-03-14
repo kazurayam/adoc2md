@@ -1,9 +1,6 @@
-- Table of contents
-{:toc}
-
 # Lorem ipsum
 
--   project version: 0.1.2
+- project version: unknown
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
@@ -127,7 +124,9 @@ Quam diu etiam furor iste tuus nos eludet?
 
 Generated using [PlantUML](https://plantuml.com/ja/)
 
-![sequence](https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png)
+<figure>
+<img src="https://kazurayam.github.io/adoc2md/diagrams/out/sequence/sequence.png" alt="sequence" />
+</figure>
 
 # 宮沢賢治の詩その1
 
