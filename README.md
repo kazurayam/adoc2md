@@ -17,20 +17,34 @@ This is a small shell script (bash) tested on macOS that does the following:
 
 ## How to use it
 
+### Generating docs/index.md without TOC by Shell
 
 ```
-$ cd adoc2md
-$ ./gendocs.sh
+$ cd $projectDir
+$ cd docs
+$ ./adoc2md.sh
 ```
 
-or
+This will generate `./index.md` without Table Of Contents.
+
+### Generating docs/index.md with TOC by Shell
 
 ```
-$ cd adoc2md
-$ gradle gendocs
+$ cd $projectDir
+$ cd docs
+$ ./adoc2md.sh -t
 ```
 
-## Sample documentation written in Asciidoc with TOC
+This will generate `./index.md` with Table Of Contents.
+
+### Generating docs/index.md with TOC by Gradle
+
+```
+$ cd $projectDir
+$ gradle indextoc
+```
+
+## Sample output
 
 See https://kazurayam.github.io/adoc2md/
 
